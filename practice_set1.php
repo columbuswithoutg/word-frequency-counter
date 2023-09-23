@@ -1,9 +1,9 @@
 <?php
 /**
- * Calculates the total price of items in a shopping cart....
+ * Calculates the total price of items in a shopping cart.
  *
  * @param array $items An array of items with 'name' and 'price' keys.
- * @return float The total price of the items.
+ * @return float The total price of the items..
  */
 function calculateTotalPrice(array $items): float {
     $total = 0;

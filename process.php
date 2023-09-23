@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Word Frequency Results</title>
     <style>
-        /* Your CSS styles here */
+        /* Your CSS styles here. */
     </style>
 </head>
 <body>
