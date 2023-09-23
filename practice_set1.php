@@ -3,7 +3,7 @@
  * Calculates the total price of items in a shopping cart.
  *
  * @param array $items An array of items with 'name' and 'price' keys.
- * @return float The total price of the items..
+ * @return float The total price of the items...
  */
 function calculateTotalPrice(array $items): float {
     $total = 0;
@@ -39,7 +39,7 @@ function checkEvenOrOdd(int $number): string {
     }
 }
 
-// Shopping cart items
+// Shopping cart items.
 $items = [
     ['name' => 'Widget A', 'price' => 10],
     ['name' => 'Widget B', 'price' => 15],

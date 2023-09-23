@@ -11,7 +11,7 @@
     <h1>Word Frequency Results</h1>
 
     <?php
-    // Function to calculate word frequency while ignoring stop words
+    // Function to calculate word frequency while ignoring stop words.
     function calculateWordFrequency($words, $stopWords) {
         $wordFrequency = array_count_values($words);
 
@@ -23,7 +23,7 @@
         return $wordFrequency;
     }
 
-    // Function to sort word frequency based on user's choice
+    // Function to sort word frequency based on user's choice.
     function sortWordFrequency($wordFrequency, $sortOrder) {
         if ($sortOrder === "asc") {
             asort($wordFrequency);
